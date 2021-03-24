@@ -1,6 +1,6 @@
 # gett
 
-``
+```
 // brute force : genetrate all posible tuples sum of which is 24 compleixty O(n^3)
 // If the data is sortedis can be done in O(n^2) by checking pairs against the third number
 type tuple struct {
