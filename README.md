@@ -2,7 +2,9 @@
 
 ```
 // brute force : genetrate all posible tuples sum of which is 24 compleixty O(n^3)
-// If the data is sortedis can be done in O(n^2) by checking pairs against the third number
+// If the data is sorted inner loop can be saved by checking pairs against the third number resulting in complexity O(n^2) 
+// For example, if a + b is equal or exceeding (24-b) we do not need to perform the inner loop at all.
+// If a > 24-b we need only one test and we are done.
 type tuple struct {
     a int 
     b int
