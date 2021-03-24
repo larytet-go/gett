@@ -1,12 +1,16 @@
 # gett
 
-// brutes force : genetrate all posible tuples sum of which is 24 compleixty O(n^3)
+``
+// brute force : genetrate all posible tuples sum of which is 24 compleixty O(n^3)
 // If the data is sortedis can be done in O(n^2) by checking pairs against the third number
 type tuple struct {
     a int 
     b int
     c int
 }
+```
+
+
 
 ```
 func isValid(i, j, k int, data []int) bool {
